@@ -1,4 +1,4 @@
-import fizzbuzz from "./fizzbuzz";
+import {fizzbuzz, fizzbuzzLista} from "./fizzbuzz";
 
 
 describe("Fizz Buzz", () => {
@@ -22,5 +22,8 @@ describe("Fizz Buzz", () => {
   })
   it("genera 30 en cadena",()=>{
     expect(fizzbuzz(30)).toEqual("FizzBuzz");
+  })
+  it("genera 10 en cadena lista",()=>{
+    expect(fizzbuzzLista(10)).toEqual("1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz");
   })
 });
