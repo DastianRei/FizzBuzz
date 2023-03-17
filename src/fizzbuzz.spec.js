@@ -17,4 +17,7 @@ describe("Fizz Buzz", () => {
   it("genera 5 en cadena", () => {
     expect(fizzbuzz(5)).toEqual("Buzz");
   });
+  it("genera 15 en cadena",()=>{
+    expect(fizzbuzz(15)).toEqual("FizzBuzz");
+  })
 });
