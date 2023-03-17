@@ -2,6 +2,6 @@
 
 describe("Fizz Buzz", () => {
   it("Nada", () => {
-    expect(true).toEqual(true);
+    expect(fizzbuzz(1)).toEqual("1");
   });
 });
